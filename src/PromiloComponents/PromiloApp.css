@@ -1,0 +1,80 @@
+.userInfo{
+      border: 1px solid lightgray;
+      padding: 4px;
+      border-radius: 6px;
+}
+.userName{
+    font-size:13px;
+    line-height: normal;
+    vertical-align: middle
+}
+.custom-circle{
+     width: 35px;
+     height: 35px
+}
+
+.commingSoon{
+    font-size: 10px;
+    border:1px dashed lightgray ;
+    padding:1px !important;
+    line-height: normal;
+    vertical-align: middle
+}
+
+.fa-wallet{
+    margin: 15px;
+    font-size: 30px;
+    color: #6A287E;
+}
+
+.list-group-item {
+    margin-bottom: 15px; 
+    padding-bottom: 0px;
+    border: 1px solid lightgray !important;
+    border-radius: 10px;
+}
+
+.list-group-item  p{
+       margin-bottom: 10px;
+}
+
+.customBranchSelect{
+    padding: 5px;
+    text-align: start;
+    width: 300px;
+}
+
+.customSelect2{
+    padding: 5px;
+    width: 150px;
+}
+
+.rounded{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px !important;
+}
+.orderImgs{
+      font-size: 30px;
+      color: #6A287E;
+}
+
+
+@media screen and (max-width:776px) {
+    .customBranchSelect{
+        padding: 5px;
+        text-align: start;
+        width:100%;
+    }
+    
+    .customSelect2{
+        padding: 5px;
+        width:100%;
+    }
+}
+
+
+
+
+
+
